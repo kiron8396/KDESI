@@ -1,0 +1,45 @@
+*{ font-family: 'Kanit', sans-serif;}
+nav{
+    display: flex;
+    align-items: center;
+    margin: 10px 100px; 
+    justify-content: space-between;
+    background-color: #e7d8fc;
+    padding:10px 100px;
+}
+nav input {
+    width: fit-content;
+    padding: 10px 300px;
+    border: solid #7E1FFF 2px;
+    
+}
+button{
+    border: solid #7E1FFF 2px;
+    background: #7E1FFF;
+    color: white;
+    padding-bottom:  10px;
+    padding:  10px;
+}
+.icon-btn{
+   display: flex;
+   gap: 20px;
+   
+   
+}
+.icon-btn a{
+    text-decoration: none;
+    color: #7E1FFF;
+}
+/* Slide */
+.slide-1{
+    margin-left: 100px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow:hidden;
+}
+.contenar{
+    margin: 0 100px;
+}
