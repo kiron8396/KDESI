@@ -30,6 +30,19 @@ button{
     text-decoration: none;
     color: #7E1FFF;
 }
+/* catagoris */
+.catagorys{
+    display: flex;
+    background-color: #e7d8fc;
+    justify-content: space-between;
+}
+.catagory{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+}
+
+
 /* Slide */
 .slide-1{
     margin-left: 100px;
@@ -38,7 +51,7 @@ button{
     justify-content: center;
     align-items: center;
     margin: auto;
-    overflow:hidden;
+  
 }
 .contenar{
     margin: 0 100px;
